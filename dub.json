@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"R3D & SWC S3"
+	],
+	"copyright": "Copyright C 2021, R3D & SWC S3",
+	"dependencies": {
+		"arsd-official": "~>10.3.9",
+		"arsd-official:jsvar": "~>10.3.9"
+	},
+	"description": "RimVM - Virtual Machine for RimBytecode",
+	"license": "MIT",
+	"name": "rimvm"
+}
