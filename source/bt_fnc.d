@@ -5,6 +5,7 @@ char push = cast(char)1;
 char call = cast(char)2;
 char pushglobal = cast(char)3;
 char popglobal = cast(char)4;
+char stackop = cast(char)5;
 
 char type_unk = cast(char)0;
 char type_int32 = cast(char)1;

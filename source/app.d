@@ -16,9 +16,6 @@ int argtype_string = 1;
 int argtype_unknown = -1;
 
 int ip = 0;
-RimVar[] stack;
-RimVar[string] globals;
-int[] callstack;
 RimByte rb;
 string bytecode;
 
@@ -91,7 +88,7 @@ void runBytecode(string path)
 							nextbyte_noeof();
 							psh ~= rb.bt;
 						}
-						stack ~= new RimVar(2, psh);
+						rimmanager.pushstack(new RimVar(2, psh));
 						writeln("[*] Pushed string " ~ psh);
 						break;
 					case type_int32:
@@ -103,7 +100,7 @@ void runBytecode(string path)
 							b ~= cast(ubyte)rb.bt;
 						}
 						intpsh = peek!(int, Endian.littleEndian)(b);
-						stack ~= new RimVar(1, intpsh);
+						rimmanager.pushstack(new RimVar(1, intpsh));
 						writeln("[*] Pushed int32 " ~ to!string(intpsh));
 						break;
 					default:
@@ -126,8 +123,7 @@ void runBytecode(string path)
 				RimVar[] args;
 				for (int i = 0; i < target.argcount; i++)
 				{
-					args ~= stack[stack.length - 1];
-					stack.popBack();
+					args ~= rimmanager.popstack;
 				}
 				rimfns[id].fn(args);
 				break;
@@ -138,8 +134,8 @@ void runBytecode(string path)
 					nextbyte_noeof();
 					psh ~= rb.bt;
 				}
-				stack ~= globals[to!string(psh)];
-				writeln("[*] Pushed global " ~ to!string(psh) ~ " to stack, value " ~ to!string(globals[to!string(psh)].ArgObj));
+				rimmanager.pushstack(rimmanager.getvar(to!string(psh)));
+				writeln("[*] Pushed global " ~ to!string(psh) ~ " to stack, value " ~ to!string(rimmanager.getvar(to!string(psh)).ArgObj));
 				break;
 			case popglobal:
 				var psh = "";
@@ -148,9 +144,8 @@ void runBytecode(string path)
 					nextbyte_noeof();
 					psh ~= rb.bt;
 				}
-				globals[to!string(psh)] = stack[stack.length - 1];
-				writeln("[*] Popped global " ~ to!string(psh) ~ " from stack, value " ~ to!string(globals[to!string(psh)].ArgObj));
-				stack.popBack();
+				rimmanager.setvar(to!string(psh), rimmanager.popstack);
+				writeln("[*] Popped global " ~ to!string(psh) ~ " from stack, value " ~ to!string(rimmanager.getvar(to!string(psh)).ArgObj));
 				break;
 			default:
 				writeln("[!] Unknown");
