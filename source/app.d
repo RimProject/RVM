@@ -17,6 +17,8 @@ int argtype_unknown = -1;
 
 int ip = 0;
 RimVar[] stack;
+RimVar[string] globals;
+int[] callstack;
 RimByte rb;
 string bytecode;
 
@@ -128,6 +130,27 @@ void runBytecode(string path)
 					stack.popBack();
 				}
 				rimfns[id].fn(args);
+				break;
+			case pushglobal:
+				var psh = "";
+				while(rb.bt != cast(char)0)
+				{
+					nextbyte_noeof();
+					psh ~= rb.bt;
+				}
+				stack ~= globals[to!string(psh)];
+				writeln("[*] Pushed global " ~ to!string(psh) ~ " to stack, value " ~ to!string(globals[to!string(psh)].ArgObj));
+				break;
+			case popglobal:
+				var psh = "";
+				while(rb.bt != cast(char)0)
+				{
+					nextbyte_noeof();
+					psh ~= rb.bt;
+				}
+				globals[to!string(psh)] = stack[stack.length - 1];
+				writeln("[*] Popped global " ~ to!string(psh) ~ " from stack, value " ~ to!string(globals[to!string(psh)].ArgObj));
+				stack.popBack();
 				break;
 			default:
 				writeln("[!] Unknown");

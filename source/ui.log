@@ -1,0 +1,669 @@
+DlangUI log file
+2021-11-16 23:35:58.454 I  Log level changed to Trace
+2021-11-16 23:35:58.454 I  Logger is initialized
+2021-11-16 23:35:58.454 D  myWinMain()
+2021-11-16 23:35:58.454 I  Current executable: C:\Users\andre\Desktop\DLangIDE\
+2021-11-16 23:35:58.454 I  Command line: 
+2021-11-16 23:35:58.454 I  Command line params: ["C:\\Users\\andre\\Desktop\\DLangIDE\\dlangide.exe"]
+2021-11-16 23:35:58.454 V  Creating platform
+2021-11-16 23:35:58.454 V  Registering window class
+2021-11-16 23:35:58.454 V  Initializing font manager
+2021-11-16 23:35:58.454 V  Trying to init FreeType font manager
+2021-11-16 23:35:58.454 V  Creating FreeTypeFontManager
+2021-11-16 23:35:58.454 V  DerelictFT: Loading FreeType library
+2021-11-16 23:35:58.454 V  DerelictFT: Missing symbols callback is registered
+2021-11-16 23:35:58.782 V  DerelictFT: Loaded
+2021-11-16 23:35:58.782 V  Initializing FreeType library
+2021-11-16 23:35:58.782 I  Windows directory: C:\WINDOWS
+2021-11-16 23:35:58.782 I  Fonts directory: C:\WINDOWS\Fonts\
+2021-11-16 23:35:58.782 V  Registering fonts
+2021-11-16 23:35:58.829 D  Font file C:\WINDOWS\Fonts\arialni.ttf not found
+2021-11-16 23:35:58.829 D  Font file C:\WINDOWS\Fonts\arialn.ttf not found
+2021-11-16 23:35:58.829 D  Font file C:\WINDOWS\Fonts\arialnb.ttf not found
+2021-11-16 23:35:58.829 D  Font file C:\WINDOWS\Fonts\arialnbi.ttf not found
+2021-11-16 23:35:58.829 D  Font file C:\WINDOWS\Fonts\arialni.ttf not found
+2021-11-16 23:35:58.844 D  Font file C:\WINDOWS\Fonts\CENTURY.TTF not found
+2021-11-16 23:35:58.860 D  Font file C:\WINDOWS\Fonts\frank.ttf not found
+2021-11-16 23:35:58.907 D  Font file C:\WINDOWS\Fonts\GARA.TTF not found
+2021-11-16 23:35:58.907 D  Font file C:\WINDOWS\Fonts\GARABD.TTF not found
+2021-11-16 23:35:58.907 D  Font file C:\WINDOWS\Fonts\GARAIT.TTF not found
+2021-11-16 23:35:58.985 D  Font file C:\WINDOWS\Fonts\kaiu.ttf not found
+2021-11-16 23:35:58.985 D  Font file C:\WINDOWS\Fonts\meiryo.ttc not found
+2021-11-16 23:35:58.985 D  Font file C:\WINDOWS\Fonts\meiryob.ttc not found
+2021-11-16 23:35:58.985 D  Font file C:\WINDOWS\Fonts\MSMHei.ttf not found
+2021-11-16 23:35:58.985 D  Font file C:\WINDOWS\Fonts\MSMHei-Bold.ttf not found
+2021-11-16 23:35:58.985 D  Font file C:\WINDOWS\Fonts\MSNeoGothic.ttf not found
+2021-11-16 23:35:58.985 D  Font file C:\WINDOWS\Fonts\MSNeoGothic-Bold.ttf not found
+2021-11-16 23:35:59.032 D  initResourceManagers()
+2021-11-16 23:35:59.032 I  Creating ImageCache
+2021-11-16 23:35:59.032 I  Creating DrawableCache
+2021-11-16 23:35:59.032 D  Calling initSharedResourceManagers()
+2021-11-16 23:35:59.032 D  Calling initStandardEditorActions()
+2021-11-16 23:35:59.032 D  Calling registerStandardWidgets()
+2021-11-16 23:35:59.032 D  Registering standard widgets for DML
+2021-11-16 23:35:59.032 D  initResourceManagers() -- finished
+2021-11-16 23:35:59.032 D  Creating default theme
+2021-11-16 23:35:59.032 I  Entering UIAppMain: ["C:\\Users\\andre\\Desktop\\DLangIDE\\dlangide.exe"]
+2021-11-16 23:35:59.032 V  uiTheme setting new theme ide_theme_default
+2021-11-16 23:35:59.032 I  Applying loaded theme ide_theme_default
+2021-11-16 23:35:59.032 D  Platform.createWindow is called
+2021-11-16 23:35:59.032 V  Platform.createWindow : setDefaultLanguageAndThemeIfNecessary
+2021-11-16 23:35:59.032 V  setDefaultLanguageAndThemeIfNecessary : setting UI language
+2021-11-16 23:35:59.032 V  Loading language file
+2021-11-16 23:35:59.032 D  Loading string resources from file @embedded@/std_en.ini
+2021-11-16 23:35:59.032 D  Loading string resources from file @embedded@/en.ini
+2021-11-16 23:35:59.032 V  Calling onThemeChanged
+2021-11-16 23:35:59.032 V  Platform.createWindow : new Win32Window
+2021-11-16 23:35:59.032 D  Screen dimensions: Rect(0, 0, 1920, 1080)
+2021-11-16 23:35:59.094 D  Window onCreate
+2021-11-16 23:35:59.094 V  created window, adding to map
+2021-11-16 23:35:59.094 D  Loading image from file @embedded@/dlangui-logo1.png
+2021-11-16 23:35:59.110 D  Loading image from file @embedded@/list_item_selected.9.png
+2021-11-16 23:35:59.110 D  Loading image from file @embedded@/list_item_focused.9.png
+2021-11-16 23:35:59.110 D  Loading image from file @embedded@/list_item_hovered.9.png
+2021-11-16 23:35:59.516 D  Searching for compiler path: dmd
+2021-11-16 23:36:01.375 D  dmd imports:["C:\\D\\dmd2\\src\\phobos", "C:\\D\\dmd2\\src\\druntime\\import"]
+2021-11-16 23:36:01.406 D  Shortcut actions loaded
+2021-11-16 23:36:01.406 V  uiTheme setting new theme ide_theme_dark
+2021-11-16 23:36:01.422 I  Applying loaded theme ide_theme_dark
+2021-11-16 23:36:01.422 D  DrawableCache.clear()
+2021-11-16 23:36:01.422 D  updating theme after UI font change
+2021-11-16 23:36:01.594 D  Loading image from file @embedded@/main_menu_item_background_selected_dark.9.png
+2021-11-16 23:36:01.594 D  Loading image from file @embedded@/main_menu_item_background_hover_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/toolbar_host_background_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/toolbar_background_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/document-open.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/toolbar_button_hover_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/toolbar_button_pressed_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/document-save.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/toolbar_separator_dark.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/debug-run.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/toolbar_control_disabled_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/toolbar_control_normal_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/scrollbar_btn_down_dark.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/btn_pressed_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/btn_hover_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/run-build.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/run-rdmd.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/edit-copy.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/edit-paste.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/edit-cut.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/edit-undo.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/edit-redo.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/edit-indent.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/edit-unindent.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/debug-stop.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/debug-pause.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/debug-restart.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/debug-step-into.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/debug-step-over.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/debug-step-out.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/dock_window_background_focused_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/dock_window_background_normal_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/dock_window_caption_background_focused_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/dock_window_caption_background_normal_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_more_dark.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_up_focused_selected_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_up_focused_hover_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_up_focused_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_up_selected_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_up_hover_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_up_normal_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/close_dark.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/scrollbar_btn_left_dark.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/scrollbar_btn_background_pressed_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/scrollbar_btn_background_normal_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/scrollbar_btn_background_hover_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/scrollbar_btn_right_dark.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/scrollbar_indicator_horizontal.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/scrollbar_btn_background_disabled_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/scrollbar_btn_up_dark.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/scrollbar_indicator_vertical.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/dock_window_caption_background_focused_down_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/dock_window_caption_background_normal_down_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_down_focused_selected_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_down_focused_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_down_selected_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_down_hover_dark.9.png
+2021-11-16 23:36:01.609 D  Loading image from file @embedded@/tab_btn_dark_down_normal_dark.9.png
+2021-11-16 23:36:01.609 D  onResize 665x229
+2021-11-16 23:36:01.641 D  resize: measure took 0 ms
+2021-11-16 23:36:01.656 D  Loading image from file @embedded@/btn_default_dark.9.png
+2021-11-16 23:36:01.656 D  Loading image from file @embedded@/btn_normal_dark.9.png
+2021-11-16 23:36:01.656 D  Loading image from file @embedded@/btn_disabled_dark.9.png
+2021-11-16 23:36:01.656 D  Loading image from file @embedded@/applications-internet.png
+2021-11-16 23:36:01.656 D  resize: layout took 15 ms
+2021-11-16 23:36:01.947 D  onResize 1854x1057
+2021-11-16 23:36:01.947 D  Loading image from file @embedded@/toolbar_button_null.9.png
+2021-11-16 23:36:01.947 D  resize: measure took 0 ms
+2021-11-16 23:36:01.947 D  resize: layout took 0 ms
+2021-11-16 23:43:25.761 D  root lisk styleId=LIST_BOX
+2021-11-16 23:43:25.761 D  Loading image from file @embedded@/list_item_selected_dark.9.png
+2021-11-16 23:43:25.761 D  Loading image from file @embedded@/list_item_focused_dark.9.png
+2021-11-16 23:43:25.761 D  Loading image from file @embedded@/list_item_hovered_dark.9.png
+2021-11-16 23:43:25.761 D  FileDialog.openDirectory(C:\Users\andre\Desktop\dproj\epp)
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/folder.png
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/project-d.png
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/project-development.png
+2021-11-16 23:43:26.090 D  Platform.createWindow is called
+2021-11-16 23:43:26.090 V  Platform.createWindow : setDefaultLanguageAndThemeIfNecessary
+2021-11-16 23:43:26.090 V  Platform.createWindow : new Win32Window
+2021-11-16 23:43:26.090 D  Screen dimensions: Rect(0, 0, 1920, 1080)
+2021-11-16 23:43:26.090 D  Window onCreate
+2021-11-16 23:43:26.090 V  created window, adding to map
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/dlangui-logo1.png
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/editbox_background_disabled_focus_dark.9.png
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/editbox_background_focus_dark.9.png
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/editbox_background_disabled_dark.9.png
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/editbox_background_normal_dark.9.png
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/user-home.png
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/drive-harddisk.png
+2021-11-16 23:43:26.090 W  resource device-removable-media is not found
+2021-11-16 23:43:26.090 D  Loading image from file @embedded@/folder-bookmark.png
+2021-11-16 23:43:26.105 D  Loading image from file @embedded@/dialog-cancel.png
+2021-11-16 23:43:26.105 D  onResize 590x343
+2021-11-16 23:43:26.105 D  resize: measure took 0 ms
+2021-11-16 23:43:26.105 D  resize: layout took 0 ms
+2021-11-16 23:43:29.881 D  FileDialog.openDirectory(C:\Users\andre\Desktop\dproj)
+2021-11-16 23:43:31.740 D  FileDialog.openDirectory(C:\Users\andre\Desktop\dproj\RimVM)
+2021-11-16 23:43:35.036 D  Reading project from file C:\Users\andre\Desktop\dproj\RimVM\dub.json
+2021-11-16 23:43:35.036 D    project name: rimvm
+2021-11-16 23:43:35.036 D    project description: RimVM - Virtual Machine for RimBytecode
+2021-11-16 23:43:35.036 D      added project folder C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:43:35.052 D      added project file C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:43:35.052 D      added project file C:\Users\andre\Desktop\dproj\RimVM\source\ui.log
+2021-11-16 23:43:35.052 I  Project source paths: ["C:\\Users\\andre\\Desktop\\dproj\\RimVM\\source"]
+2021-11-16 23:43:35.052 I  Project configurations: [ProjectConfiguration("default", Default)]
+2021-11-16 23:43:35.067 D      added project file C:\Users\andre\Desktop\dproj\RimVM\dub.json
+2021-11-16 23:43:35.067 D  Starting DCD tasks thread
+2021-11-16 23:43:35.067 D  Searching for compiler path: default
+2021-11-16 23:43:35.973 D  Execute DCD task; current dir=C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:43:35.973 D  workspace name: rimvm
+2021-11-16 23:43:35.973 D  workspace description: RimVM - Virtual Machine for RimBytecode
+2021-11-16 23:43:35.973 D  addProject C:\Users\andre\Desktop\dproj\RimVM\dub.json
+2021-11-16 23:43:35.973 D  Reading project from file C:\Users\andre\Desktop\dproj\RimVM\dub.json
+2021-11-16 23:43:35.973 D    project name: rimvm
+2021-11-16 23:43:35.973 D    project description: RimVM - Virtual Machine for RimBytecode
+2021-11-16 23:43:35.989 D      added project folder C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:43:35.989 D      added project file C:\Users\andre\Desktop\dproj\RimVM\source\.dlangidews.wssettings
+2021-11-16 23:43:35.989 D      added project file C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:43:35.989 D      added project file C:\Users\andre\Desktop\dproj\RimVM\source\ui.log
+2021-11-16 23:43:35.989 I  Project source paths: ["C:\\Users\\andre\\Desktop\\dproj\\RimVM\\source"]
+2021-11-16 23:43:35.989 I  Project configurations: [ProjectConfiguration("default", Default)]
+2021-11-16 23:43:35.989 D      added project file C:\Users\andre\Desktop\dproj\RimVM\dub.json
+2021-11-16 23:43:35.989 D  workspace name: rimvm
+2021-11-16 23:43:35.989 D  workspace description: RimVM - Virtual Machine for RimBytecode
+2021-11-16 23:43:36.004 D  openSourceFile C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:43:36.004 D  trying to open source file C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:43:36.004 D  file C:\Users\andre\Desktop\dproj\RimVM\source\app.d is opened ok
+2021-11-16 23:43:36.004 D  Loading image from file @embedded@/arrow_right_down_black_dark.png
+2021-11-16 23:43:36.067 D  Loading image from file @embedded@/text-other.png
+2021-11-16 23:43:36.067 D  Loading image from file @embedded@/text-d.png
+2021-11-16 23:43:36.067 D  Loading image from file @embedded@/text-json.png
+2021-11-16 23:43:36.067 D  onSourceFileSelected C:\Users\andre\Desktop\dproj\RimVM\source\app.d activate=false
+2021-11-16 23:43:36.083 D  windowCaption rimvm - DLangIDE
+2021-11-16 23:43:36.083 D  Window.close()
+2021-11-16 23:43:36.083 D  WM_CLOSE: closing window 
+2021-11-16 23:43:36.100 D  Window onDestroy
+2021-11-16 23:43:36.100 V  destroyed window, removing from map
+2021-11-16 23:43:36.101 E  Cannot find window in map by HWND
+2021-11-16 23:43:36.101 D  Window destructor
+2021-11-16 23:43:36.101 D  Destroying window
+2021-11-16 23:43:44.393 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:44:10.715 D  Getting auto completion suggestions.
+2021-11-16 23:44:13.652 D  DCD task execution finished
+2021-11-16 23:44:13.652 D  Execute DCD task; current dir=C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:44:13.652 D  DCD task execution finished
+2021-11-16 23:44:13.652 D  Execute DCD task; current dir=C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:44:13.652 D  DCD task execution finished
+2021-11-16 23:44:13.652 D  Execute DCD task; current dir=C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:44:13.667 D  DCD task execution finished
+2021-11-16 23:44:18.354 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:44:20.416 D  Loading image from file @embedded@/tooltip_background_dark.9.png
+2021-11-16 23:44:25.571 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:44:25.681 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:44:25.681 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:44:29.789 D  onCompilerLogIssueClick project=rimvm file=source\app.d line=6 column=9
+2021-11-16 23:44:29.789 D  openSourceFile C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:44:29.789 D  found source file
+2021-11-16 23:44:39.411 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:44:40.802 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:44:43.004 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:44:43.114 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:44:43.114 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:44:50.174 I  Build completed successfully. Starting debug for project.
+2021-11-16 23:44:50.190 D  Terminal window device name: external-console
+2021-11-16 23:44:50.190 D  DebuggerProxy.run()
+2021-11-16 23:44:50.190 D  DebuggerBase.run()
+2021-11-16 23:44:50.190 I  Debugger thread started
+2021-11-16 23:44:50.190 D  GDBInterface.startDebugging()
+2021-11-16 23:44:50.190 D  ExternalProcess.run mago-mi ["--interpreter", "mi2", "--silent"]
+2021-11-16 23:44:50.393 I  Trying to run program C:\Users\andre\Desktop\DLangIDE\mago-mi.exe with args ["--interpreter", "mi2", "--silent"]
+2021-11-16 23:44:51.471 I  Debugger process state:Running
+2021-11-16 23:44:51.471 V  submitting request 1 -environment-cd C:\\Users\\andre\\Desktop\\dproj\\RimVM
+2021-11-16 23:44:51.471 V  submitting request 2 -inferior-tty-set external-console
+2021-11-16 23:44:51.471 V  submitting request 3 -gdb-set breakpoint pending on
+2021-11-16 23:44:51.471 V  submitting request 4 -gdb-set print object on
+2021-11-16 23:44:51.471 V  submitting request 5 -gdb-set print sevenbit-strings on
+2021-11-16 23:44:51.471 V  submitting request 6 -gdb-set host-charset UTF-8
+2021-11-16 23:44:51.471 V  submitting request 7 -gdb-set target-async off
+2021-11-16 23:44:51.471 V  submitting request 8 -gdb-set auto-solib-add on
+2021-11-16 23:44:51.471 V  submitting request 9 -file-exec-and-symbols C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe
+2021-11-16 23:44:51.627 V  onStdoutText: =thread-group-added,id="i1"
+
+2021-11-16 23:44:51.627 D  GDB stdout: '=thread-group-added,id="i1"'
+2021-11-16 23:44:51.627 V  GDB async =[0] thread-group-added params: id="i1"
+2021-11-16 23:44:51.627 V  onStdoutText: (gdb) 
+
+2021-11-16 23:44:51.627 D  GDB stdout: '(gdb) '
+2021-11-16 23:44:51.627 D  GDB idle
+2021-11-16 23:44:51.627 D  GDB command[1]> -environment-cd C:\\Users\\andre\\Desktop\\dproj\\RimVM
+2021-11-16 23:44:51.752 V  onStdoutText: 1^done
+
+2021-11-16 23:44:51.752 D  GDB stdout: '1^done'
+2021-11-16 23:44:51.752 V  GDB result ^[1] done
+2021-11-16 23:44:51.752 V  GDB result ^[1] done params: []
+2021-11-16 23:44:51.752 V  onStdoutText: (gdb) 
+
+2021-11-16 23:44:51.752 D  GDB stdout: '(gdb) '
+2021-11-16 23:44:51.752 D  GDB idle
+2021-11-16 23:44:51.752 D  GDB command[2]> -inferior-tty-set external-console
+2021-11-16 23:44:51.862 V  onStdoutText: 2^done
+
+2021-11-16 23:44:51.862 D  GDB stdout: '2^done'
+2021-11-16 23:44:51.862 V  GDB result ^[2] done
+2021-11-16 23:44:51.862 V  GDB result ^[2] done params: []
+2021-11-16 23:44:51.862 V  onStdoutText: (gdb) 
+
+2021-11-16 23:44:51.862 D  GDB stdout: '(gdb) '
+2021-11-16 23:44:51.862 D  GDB idle
+2021-11-16 23:44:51.862 D  GDB command[3]> -gdb-set breakpoint pending on
+2021-11-16 23:44:51.971 V  onStdoutText: 3^done
+
+2021-11-16 23:44:51.971 D  GDB stdout: '3^done'
+2021-11-16 23:44:51.971 V  GDB result ^[3] done
+2021-11-16 23:44:51.971 V  GDB result ^[3] done params: []
+2021-11-16 23:44:51.971 V  onStdoutText: (gdb) 
+
+2021-11-16 23:44:51.971 D  GDB stdout: '(gdb) '
+2021-11-16 23:44:51.971 D  GDB idle
+2021-11-16 23:44:51.971 D  GDB command[4]> -gdb-set print object on
+2021-11-16 23:44:52.080 V  onStdoutText: 4^done
+
+2021-11-16 23:44:52.080 D  GDB stdout: '4^done'
+2021-11-16 23:44:52.080 V  GDB result ^[4] done
+2021-11-16 23:44:52.080 V  GDB result ^[4] done params: []
+2021-11-16 23:44:52.080 V  onStdoutText: (gdb) 
+
+2021-11-16 23:44:52.080 D  GDB stdout: '(gdb) '
+2021-11-16 23:44:52.080 D  GDB idle
+2021-11-16 23:44:52.080 D  GDB command[5]> -gdb-set print sevenbit-strings on
+2021-11-16 23:44:52.190 V  onStdoutText: 5^done
+
+2021-11-16 23:44:52.190 D  GDB stdout: '5^done'
+2021-11-16 23:44:52.190 V  GDB result ^[5] done
+2021-11-16 23:44:52.190 V  GDB result ^[5] done params: []
+2021-11-16 23:44:52.190 V  onStdoutText: (gdb) 
+
+2021-11-16 23:44:52.190 D  GDB stdout: '(gdb) '
+2021-11-16 23:44:52.190 D  GDB idle
+2021-11-16 23:44:52.190 D  GDB command[6]> -gdb-set host-charset UTF-8
+2021-11-16 23:44:52.299 V  onStdoutText: 6^done
+
+2021-11-16 23:44:52.299 D  GDB stdout: '6^done'
+2021-11-16 23:44:52.299 V  GDB result ^[6] done
+2021-11-16 23:44:52.299 V  GDB result ^[6] done params: []
+2021-11-16 23:44:52.299 V  onStdoutText: (gdb) 
+
+2021-11-16 23:44:52.299 D  GDB stdout: '(gdb) '
+2021-11-16 23:44:52.299 D  GDB idle
+2021-11-16 23:44:52.299 D  GDB command[7]> -gdb-set target-async off
+2021-11-16 23:44:52.408 V  onStdoutText: 7^done
+
+2021-11-16 23:44:52.408 D  GDB stdout: '7^done'
+2021-11-16 23:44:52.408 V  GDB result ^[7] done
+2021-11-16 23:44:52.408 V  GDB result ^[7] done params: []
+2021-11-16 23:44:52.408 V  onStdoutText: (gdb) 
+
+2021-11-16 23:44:52.408 D  GDB stdout: '(gdb) '
+2021-11-16 23:44:52.408 D  GDB idle
+2021-11-16 23:44:52.408 D  GDB command[8]> -gdb-set auto-solib-add on
+2021-11-16 23:44:52.518 V  onStdoutText: 8^done
+
+2021-11-16 23:44:52.518 D  GDB stdout: '8^done'
+2021-11-16 23:44:52.518 V  GDB result ^[8] done
+2021-11-16 23:44:52.518 V  GDB result ^[8] done params: []
+2021-11-16 23:44:52.518 V  onStdoutText: (gdb) 
+
+2021-11-16 23:44:52.518 D  GDB stdout: '(gdb) '
+2021-11-16 23:44:52.518 D  GDB idle
+2021-11-16 23:44:52.518 D  GDB command[9]> -file-exec-and-symbols C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe
+2021-11-16 23:44:52.627 V  onStdoutText: ~"Starting program: C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"
+
+2021-11-16 23:44:52.627 D  GDB stdout: '~"Starting program: C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"'
+2021-11-16 23:44:52.627 D  GDB CLI: "Starting program: C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"
+2021-11-16 23:44:52.627 V  onStdoutText: 9^error,msg="Failed to start debugging of C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"
+
+2021-11-16 23:44:52.627 D  GDB stdout: '9^error,msg="Failed to start debugging of C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"'
+2021-11-16 23:44:52.627 V  GDB result ^[9] error,msg="Failed to start debugging of C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"
+2021-11-16 23:44:52.627 V  GDB result ^[9] error params: [
+    msg = "Failed to start debugging of C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe"
+]
+2021-11-16 23:44:52.627 D  Init sequence complection result: false
+2021-11-16 23:44:52.627 I  Debugger thread finished
+2021-11-16 23:44:52.627 D  Debugger thread finished
+2021-11-16 23:44:52.627 D  Killing debugger process
+2021-11-16 23:44:52.627 D  ExternalProcess.kill
+2021-11-16 23:44:52.674 D  Waiting for debugger process finishing
+2021-11-16 23:44:52.674 D  Sending execution status
+2021-11-16 23:44:52.674 D  Debugger exit status: Error 0
+2021-11-16 23:44:59.157 D  Loading image from file @embedded@/popup_menu_background_normal_dark.9.png
+2021-11-16 23:44:59.563 D  Loading image from file @embedded@/run-build-clean.png
+2021-11-16 23:44:59.563 D  Loading image from file @embedded@/menu_separator_dark.9.png
+2021-11-16 23:45:01.422 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:45:01.531 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:45:01.531 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:45:03.390 I  Build completed successfully. Starting debug for project.
+2021-11-16 23:45:03.390 D  Terminal window device name: external-console
+2021-11-16 23:45:03.390 D  DebuggerProxy.run()
+2021-11-16 23:45:03.390 D  DebuggerBase.run()
+2021-11-16 23:45:03.390 I  Debugger thread started
+2021-11-16 23:45:03.390 D  GDBInterface.startDebugging()
+2021-11-16 23:45:03.390 D  ExternalProcess.run mago-mi ["--interpreter", "mi2", "--silent"]
+2021-11-16 23:45:03.390 I  Trying to run program C:\Users\andre\Desktop\DLangIDE\mago-mi.exe with args ["--interpreter", "mi2", "--silent"]
+2021-11-16 23:45:03.437 I  Debugger process state:Running
+2021-11-16 23:45:03.437 V  submitting request 1 -environment-cd C:\\Users\\andre\\Desktop\\dproj\\RimVM
+2021-11-16 23:45:03.437 V  submitting request 2 -inferior-tty-set external-console
+2021-11-16 23:45:03.437 V  submitting request 3 -gdb-set breakpoint pending on
+2021-11-16 23:45:03.437 V  submitting request 4 -gdb-set print object on
+2021-11-16 23:45:03.437 V  submitting request 5 -gdb-set print sevenbit-strings on
+2021-11-16 23:45:03.437 V  submitting request 6 -gdb-set host-charset UTF-8
+2021-11-16 23:45:03.437 V  submitting request 7 -gdb-set target-async off
+2021-11-16 23:45:03.437 V  submitting request 8 -gdb-set auto-solib-add on
+2021-11-16 23:45:03.437 V  submitting request 9 -file-exec-and-symbols C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe
+2021-11-16 23:45:03.546 V  onStdoutText: =thread-group-added,id="i1"
+
+2021-11-16 23:45:03.546 D  GDB stdout: '=thread-group-added,id="i1"'
+2021-11-16 23:45:03.546 V  GDB async =[0] thread-group-added params: id="i1"
+2021-11-16 23:45:03.546 V  onStdoutText: (gdb) 
+
+2021-11-16 23:45:03.546 D  GDB stdout: '(gdb) '
+2021-11-16 23:45:03.546 D  GDB idle
+2021-11-16 23:45:03.546 D  GDB command[1]> -environment-cd C:\\Users\\andre\\Desktop\\dproj\\RimVM
+2021-11-16 23:45:03.671 V  onStdoutText: 1^done
+
+2021-11-16 23:45:03.671 D  GDB stdout: '1^done'
+2021-11-16 23:45:03.671 V  GDB result ^[1] done
+2021-11-16 23:45:03.671 V  GDB result ^[1] done params: []
+2021-11-16 23:45:03.671 V  onStdoutText: (gdb) 
+
+2021-11-16 23:45:03.671 D  GDB stdout: '(gdb) '
+2021-11-16 23:45:03.671 D  GDB idle
+2021-11-16 23:45:03.671 D  GDB command[2]> -inferior-tty-set external-console
+2021-11-16 23:45:03.781 V  onStdoutText: 2^done
+
+2021-11-16 23:45:03.781 D  GDB stdout: '2^done'
+2021-11-16 23:45:03.781 V  GDB result ^[2] done
+2021-11-16 23:45:03.781 V  GDB result ^[2] done params: []
+2021-11-16 23:45:03.781 V  onStdoutText: (gdb) 
+
+2021-11-16 23:45:03.781 D  GDB stdout: '(gdb) '
+2021-11-16 23:45:03.781 D  GDB idle
+2021-11-16 23:45:03.781 D  GDB command[3]> -gdb-set breakpoint pending on
+2021-11-16 23:45:03.890 V  onStdoutText: 3^done
+
+2021-11-16 23:45:03.890 D  GDB stdout: '3^done'
+2021-11-16 23:45:03.890 V  GDB result ^[3] done
+2021-11-16 23:45:03.890 V  GDB result ^[3] done params: []
+2021-11-16 23:45:03.890 V  onStdoutText: (gdb) 
+
+2021-11-16 23:45:03.890 D  GDB stdout: '(gdb) '
+2021-11-16 23:45:03.890 D  GDB idle
+2021-11-16 23:45:03.890 D  GDB command[4]> -gdb-set print object on
+2021-11-16 23:45:03.999 V  onStdoutText: 4^done
+
+2021-11-16 23:45:03.999 D  GDB stdout: '4^done'
+2021-11-16 23:45:03.999 V  GDB result ^[4] done
+2021-11-16 23:45:03.999 V  GDB result ^[4] done params: []
+2021-11-16 23:45:03.999 V  onStdoutText: (gdb) 
+
+2021-11-16 23:45:03.999 D  GDB stdout: '(gdb) '
+2021-11-16 23:45:03.999 D  GDB idle
+2021-11-16 23:45:03.999 D  GDB command[5]> -gdb-set print sevenbit-strings on
+2021-11-16 23:45:04.109 V  onStdoutText: 5^done
+
+2021-11-16 23:45:04.109 D  GDB stdout: '5^done'
+2021-11-16 23:45:04.109 V  GDB result ^[5] done
+2021-11-16 23:45:04.109 V  GDB result ^[5] done params: []
+2021-11-16 23:45:04.109 V  onStdoutText: (gdb) 
+
+2021-11-16 23:45:04.109 D  GDB stdout: '(gdb) '
+2021-11-16 23:45:04.109 D  GDB idle
+2021-11-16 23:45:04.109 D  GDB command[6]> -gdb-set host-charset UTF-8
+2021-11-16 23:45:04.218 V  onStdoutText: 6^done
+
+2021-11-16 23:45:04.218 D  GDB stdout: '6^done'
+2021-11-16 23:45:04.218 V  GDB result ^[6] done
+2021-11-16 23:45:04.218 V  GDB result ^[6] done params: []
+2021-11-16 23:45:04.218 V  onStdoutText: (gdb) 
+
+2021-11-16 23:45:04.218 D  GDB stdout: '(gdb) '
+2021-11-16 23:45:04.218 D  GDB idle
+2021-11-16 23:45:04.218 D  GDB command[7]> -gdb-set target-async off
+2021-11-16 23:45:04.327 V  onStdoutText: 7^done
+
+2021-11-16 23:45:04.327 D  GDB stdout: '7^done'
+2021-11-16 23:45:04.327 V  GDB result ^[7] done
+2021-11-16 23:45:04.327 V  GDB result ^[7] done params: []
+2021-11-16 23:45:04.327 V  onStdoutText: (gdb) 
+
+2021-11-16 23:45:04.327 D  GDB stdout: '(gdb) '
+2021-11-16 23:45:04.327 D  GDB idle
+2021-11-16 23:45:04.327 D  GDB command[8]> -gdb-set auto-solib-add on
+2021-11-16 23:45:04.437 V  onStdoutText: 8^done
+
+2021-11-16 23:45:04.437 D  GDB stdout: '8^done'
+2021-11-16 23:45:04.437 V  GDB result ^[8] done
+2021-11-16 23:45:04.437 V  GDB result ^[8] done params: []
+2021-11-16 23:45:04.437 V  onStdoutText: (gdb) 
+
+2021-11-16 23:45:04.437 D  GDB stdout: '(gdb) '
+2021-11-16 23:45:04.437 D  GDB idle
+2021-11-16 23:45:04.437 D  GDB command[9]> -file-exec-and-symbols C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe
+2021-11-16 23:45:04.546 V  onStdoutText: ~"Starting program: C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"
+
+2021-11-16 23:45:04.546 D  GDB stdout: '~"Starting program: C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"'
+2021-11-16 23:45:04.546 D  GDB CLI: "Starting program: C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"
+2021-11-16 23:45:04.546 V  onStdoutText: 9^error,msg="Failed to start debugging of C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"
+
+2021-11-16 23:45:04.546 D  GDB stdout: '9^error,msg="Failed to start debugging of C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"'
+2021-11-16 23:45:04.546 V  GDB result ^[9] error,msg="Failed to start debugging of C:\\Users\\andre\\Desktop\\dproj\\RimVM\\rimvm.exe"
+2021-11-16 23:45:04.546 V  GDB result ^[9] error params: [
+    msg = "Failed to start debugging of C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe"
+]
+2021-11-16 23:45:04.546 D  Init sequence complection result: false
+2021-11-16 23:45:04.546 I  Debugger thread finished
+2021-11-16 23:45:04.546 D  Debugger thread finished
+2021-11-16 23:45:04.546 D  Killing debugger process
+2021-11-16 23:45:04.546 D  ExternalProcess.kill
+2021-11-16 23:45:04.546 D  Waiting for debugger process finishing
+2021-11-16 23:45:04.546 D  Sending execution status
+2021-11-16 23:45:04.546 D  Debugger exit status: Error 0
+2021-11-16 23:45:12.360 D  Process C:\D\dmd2\windows\bin\rdmd.exe is stopped
+2021-11-16 23:45:12.361 D  ProgramExecutionNoDebug: finished, execution status: Finished
+2021-11-16 23:45:12.362 D  onProgramExecutionStatus process: C:\D\dmd2\windows\bin\rdmd.exe status: Finished exitCode: 0
+2021-11-16 23:45:13.768 D  onHoverTimeout 6:15
+2021-11-16 23:45:13.768 D  Execute DCD task; current dir=C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:45:13.783 D  DCD task execution finished
+2021-11-16 23:45:18.923 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:45:19.032 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:45:19.032 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:45:20.016 I  Build completed successfully. Running program...
+2021-11-16 23:45:21.270 D  Process C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe is stopped
+2021-11-16 23:45:21.270 D  ProgramExecutionNoDebug: finished, execution status: Finished
+2021-11-16 23:45:21.270 D  onProgramExecutionStatus process: C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe status: Finished exitCode: 0
+2021-11-16 23:45:27.347 D  Opening submenu by timer
+2021-11-16 23:45:27.347 D  Loading image from file @embedded@/btn_radio_on_pressed_dark.png
+2021-11-16 23:45:27.347 D  Loading image from file @embedded@/btn_radio_off_pressed_dark.png
+2021-11-16 23:45:27.347 D  Loading image from file @embedded@/btn_radio_on_focused_dark.png
+2021-11-16 23:45:27.347 D  Loading image from file @embedded@/btn_radio_off_focused_dark.png
+2021-11-16 23:45:27.347 D  Loading image from file @embedded@/btn_radio_off_dark.png
+2021-11-16 23:45:27.347 D  Loading image from file @embedded@/btn_radio_on_dark.png
+2021-11-16 23:45:27.347 D  Loading image from file @embedded@/btn_radio_off_disabled_dark.png
+2021-11-16 23:45:27.347 D  Loading image from file @embedded@/btn_radio_on_disabled_dark.png
+2021-11-16 23:45:27.972 D  Opening submenu by timer
+2021-11-16 23:45:28.628 D  Loading image from file @embedded@/btn_check_on_pressed_dark.png
+2021-11-16 23:45:28.628 D  Loading image from file @embedded@/btn_check_off_pressed_dark.png
+2021-11-16 23:45:28.628 D  Loading image from file @embedded@/btn_check_on_focused_dark.png
+2021-11-16 23:45:28.628 D  Loading image from file @embedded@/btn_check_off_focused_dark.png
+2021-11-16 23:45:28.628 D  Loading image from file @embedded@/btn_check_off_dark.png
+2021-11-16 23:45:28.628 D  Loading image from file @embedded@/btn_check_on_dark.png
+2021-11-16 23:45:28.628 D  Loading image from file @embedded@/btn_check_on_disabled_dark.png
+2021-11-16 23:45:28.628 D  Loading image from file @embedded@/btn_check_off_disabled_dark.png
+2021-11-16 23:45:29.112 D  Loading image from file @embedded@/edit-find.png
+2021-11-16 23:45:35.517 D  Loading image from file @embedded@/document-close.png
+2021-11-16 23:45:45.764 D  tab close button pressed
+2021-11-16 23:45:45.764 D  onTabClose C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:45:45.764 D  Cancelling getDocComments()
+2021-11-16 23:45:47.920 D  onSourceFileSelected C:\Users\andre\Desktop\dproj\RimVM\source\app.d activate=false
+2021-11-16 23:45:48.155 D  onSourceFileSelected C:\Users\andre\Desktop\dproj\RimVM\source\app.d activate=true
+2021-11-16 23:45:48.155 D  openSourceFile C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:45:48.155 D  trying to open source file C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:45:48.155 D  file C:\Users\andre\Desktop\dproj\RimVM\source\app.d is opened ok
+2021-11-16 23:45:48.982 D  onSourceFileSelected C:\Users\andre\Desktop\dproj\RimVM\source\ui.log activate=false
+2021-11-16 23:45:49.217 D  onSourceFileSelected C:\Users\andre\Desktop\dproj\RimVM\source\ui.log activate=true
+2021-11-16 23:45:49.217 D  openSourceFile C:\Users\andre\Desktop\dproj\RimVM\source\ui.log
+2021-11-16 23:45:49.217 D  trying to open source file C:\Users\andre\Desktop\dproj\RimVM\source\ui.log
+2021-11-16 23:45:49.232 D  file C:\Users\andre\Desktop\dproj\RimVM\source\ui.log is opened ok
+2021-11-16 23:46:04.807 D  tab close button pressed
+2021-11-16 23:46:04.807 D  onTabClose C:\Users\andre\Desktop\dproj\RimVM\source\ui.log
+2021-11-16 23:46:04.807 D  onSourceFileSelected C:\Users\andre\Desktop\dproj\RimVM\source\app.d activate=false
+2021-11-16 23:46:42.878 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:46:46.172 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:46:48.328 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:46:48.453 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:46:48.453 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:47:03.296 I  Build completed successfully. Running program...
+2021-11-16 23:47:17.109 D  Process C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe is stopped
+2021-11-16 23:47:17.110 D  ProgramExecutionNoDebug: finished, execution status: Finished
+2021-11-16 23:47:17.117 D  onProgramExecutionStatus process: C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe status: Finished exitCode: 0
+2021-11-16 23:47:27.051 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:47:46.281 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:47:48.983 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:47:49.889 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:47:54.279 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:47:54.388 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:47:54.388 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:47:57.450 I  Build completed successfully. Running program...
+2021-11-16 23:48:00.584 D  Process C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe is stopped
+2021-11-16 23:48:00.584 D  ProgramExecutionNoDebug: finished, execution status: Finished
+2021-11-16 23:48:00.584 D  onProgramExecutionStatus process: C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe status: Finished exitCode: 0
+2021-11-16 23:48:03.880 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:48:30.412 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:48:33.286 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:48:33.411 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:48:33.411 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:48:37.348 I  Build completed successfully. Running program...
+2021-11-16 23:48:39.892 D  Process C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe is stopped
+2021-11-16 23:48:39.892 D  ProgramExecutionNoDebug: finished, execution status: Finished
+2021-11-16 23:48:39.892 D  onProgramExecutionStatus process: C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe status: Finished exitCode: 0
+2021-11-16 23:48:42.532 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:48:43.595 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:49:56.373 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:50:57.287 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:51:00.115 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:51:00.224 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:51:00.224 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:51:02.739 D  onCompilerLogIssueClick project=rimvm file=source\app.d line=9 column=12
+2021-11-16 23:51:02.739 D  openSourceFile C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:51:02.739 D  found source file
+2021-11-16 23:51:07.957 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:51:10.847 D  Getting auto completion suggestions.
+2021-11-16 23:51:10.847 D  Execute DCD task; current dir=C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:51:10.878 D  DCD task execution finished
+2021-11-16 23:51:10.878 D  Loading image from file @embedded@/symbol-module.png
+2021-11-16 23:51:10.878 D  Loading image from file @embedded@/symbol-package.png
+2021-11-16 23:51:15.002 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:51:15.970 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:51:16.080 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:51:16.080 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:51:19.360 D  non-unicode characters found in output of process
+2021-11-16 23:51:21.516 I  Build completed successfully. Running program...
+2021-11-16 23:51:29.203 D  Process C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe is stopped
+2021-11-16 23:51:29.203 D  ProgramExecutionNoDebug: finished, execution status: Finished
+2021-11-16 23:51:29.203 D  onProgramExecutionStatus process: C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe status: Finished exitCode: 0
+2021-11-16 23:51:30.297 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:51:30.406 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:51:30.406 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:51:32.484 I  Build completed successfully. Running program...
+2021-11-16 23:51:39.200 D  Process C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe is stopped
+2021-11-16 23:51:39.200 D  ProgramExecutionNoDebug: finished, execution status: Finished
+2021-11-16 23:51:39.200 D  onProgramExecutionStatus process: C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe status: Finished exitCode: 0
+2021-11-16 23:53:29.369 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:53:51.828 D  Getting auto completion suggestions.
+2021-11-16 23:53:51.828 D  Execute DCD task; current dir=C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:53:51.859 D  DCD task execution finished
+2021-11-16 23:53:51.859 D  Loading image from file @embedded@/symbol-keyword.png
+2021-11-16 23:54:03.700 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:54:05.262 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:54:05.372 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:54:05.372 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:54:07.559 D  onCompilerLogIssueClick project=rimvm file=source\app.d line=9 column=32
+2021-11-16 23:54:07.559 D  openSourceFile C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:54:07.559 D  found source file
+2021-11-16 23:54:39.551 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:54:43.081 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:54:45.476 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:54:45.585 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:54:45.585 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:54:48.480 D  non-unicode characters found in output of process
+2021-11-16 23:54:49.761 I  Build completed successfully. Running program...
+2021-11-16 23:54:56.419 D  Process C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe is stopped
+2021-11-16 23:54:56.419 D  ProgramExecutionNoDebug: finished, execution status: Finished
+2021-11-16 23:54:56.419 D  onProgramExecutionStatus process: C:\Users\andre\Desktop\dproj\RimVM\rimvm.exe status: Finished exitCode: 0
+2021-11-16 23:55:02.980 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:57:38.475 D  Getting auto completion suggestions.
+2021-11-16 23:57:38.475 D  Execute DCD task; current dir=C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:57:38.475 D  DCD task execution finished
+2021-11-16 23:57:38.975 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:58:01.765 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:58:06.826 D  Getting auto completion suggestions.
+2021-11-16 23:58:06.826 D  Execute DCD task; current dir=C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:58:06.842 D  DCD task execution finished
+2021-11-16 23:58:09.076 D  Getting auto completion suggestions.
+2021-11-16 23:58:09.076 D  Execute DCD task; current dir=C:\Users\andre\Desktop\dproj\RimVM\source
+2021-11-16 23:58:09.169 D  DCD task execution finished
+2021-11-16 23:58:24.229 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:58:25.010 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:58:25.119 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:58:25.119 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:58:27.196 D  onCompilerLogIssueClick project=rimvm file=source\app.d line=17 column=12
+2021-11-16 23:58:27.196 D  openSourceFile C:\Users\andre\Desktop\dproj\RimVM\source\app.d
+2021-11-16 23:58:27.196 D  found source file
+2021-11-16 23:58:32.601 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=true
+2021-11-16 23:58:33.289 D  onModifiedStateChange C:\Users\andre\Desktop\dproj\RimVM\source\app.d modified=false
+2021-11-16 23:58:34.617 D  build: base directory is C:\Users\andre\Desktop\dproj\RimVM
+2021-11-16 23:58:34.726 D  ExternalProcess.run C:\D\dmd2\windows\bin\dub.exe ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:58:34.726 I  Trying to run program C:\D\dmd2\windows\bin\dub.exe with args ["build", "--build-mode=allAtOnce", "--build=debug"]
+2021-11-16 23:58:36.803 D  non-unicode characters found in output of process
+2021-11-17 00:00:46.854 D  workspace name: rimvm
+2021-11-17 00:00:46.854 D  workspace description: RimVM - Virtual Machine for RimBytecode
+2021-11-17 00:00:46.854 D  Window.close()
+2021-11-17 00:00:46.854 D  workspace name: rimvm
+2021-11-17 00:00:46.854 D  workspace description: RimVM - Virtual Machine for RimBytecode
+2021-11-17 00:00:46.854 D  WM_CLOSE: canClose is false
+2021-11-17 00:00:46.854 D  WM_CLOSE: canClose is false
+2021-11-17 00:00:46.854 D  Window destructor
+2021-11-17 00:00:46.875 D  Window onDestroy
+2021-11-17 00:00:46.875 V  destroyed window, removing from map
+2021-11-17 00:00:46.983 E  Cannot find window in map by HWND
+2021-11-17 00:00:46.983 D  Destroying window
+2021-11-17 00:00:46.999 I  onWindowClose()
+2021-11-17 00:00:46.999 D  Exiting DCD tasks thread
+2021-11-17 00:00:46.999 D  DCD: destroying module cache
+2021-11-17 00:00:47.077 I  UIAppMain returned 0
+2021-11-17 00:00:47.077 I  Destroying DrawableCache
+2021-11-17 00:00:47.077 I  Destroying ImageCache
+2021-11-17 00:00:47.077 D  Destroying font manager
+2021-11-17 00:00:47.077 D  Exiting main
+2021-11-17 00:00:47.077 D  Calling GC.collect

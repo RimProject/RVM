@@ -3,9 +3,11 @@ import rimtypes;
 char nop = cast(char)0;
 char push = cast(char)1;
 char call = cast(char)2;
+char pushglobal = cast(char)3;
+char popglobal = cast(char)4;
 
 char type_unk = cast(char)0;
-char type_int8 = cast(char)1;
+char type_int32 = cast(char)1;
 char type_str = cast(char)2;
 
 
