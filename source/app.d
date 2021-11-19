@@ -6,6 +6,8 @@ import std.conv : to;
 import bt_fnc;
 import rimtypes;
 import jsvar;
+import std.bitmanip;
+import std.system;
 
 string rimvm_ver = "1.0";
 
@@ -90,7 +92,17 @@ void runBytecode(string path)
 						stack ~= new RimVar(2, psh);
 						writeln("[*] Pushed string " ~ psh);
 						break;
-					case type_int8:
+					case type_int32:
+						ubyte[] b; // = [0x24, 0x10, 0x00, 0x00];
+						var intpsh;
+						for (int i = 0; i < 4; i++)
+						{
+							nextbyte_noeof();
+							b ~= cast(ubyte)rb.bt;
+						}
+						intpsh = peek!(int, Endian.littleEndian)(b);
+						stack ~= new RimVar(1, intpsh);
+						writeln("[*] Pushed int32 " ~ to!string(intpsh));
 						break;
 					default:
 						vmpanic("Unknown variable type", 5);
